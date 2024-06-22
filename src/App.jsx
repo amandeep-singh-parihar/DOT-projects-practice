@@ -16,7 +16,7 @@ function App() {
   function refreshHandler()
   {
     setTours(data);
-    toast.success("Tours Refreshed")
+    toast.info("Tours Refreshed")
   }
 
   if (tours.length === 0) {
